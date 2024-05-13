@@ -1,0 +1,158 @@
+/*清楚默认边距*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /*增加背景图片*/
+  /*给header设置一个外边距,留出页面最上面dev的距离*/
+  .header {
+    margin-top: 15px;
+  }
+  /*语言部分的样式*/
+  
+  .language {
+    width: 100%;
+    height: 35px;
+    background: #101;
+  }
+  
+  .language > ul {
+    float: right;
+    /*right: 470px;*/
+    margin-right: 170px;
+  }
+  .language > ul > li {
+    width: 80px;
+    height: 35px;
+    float: left;
+    margin-left: 5px;
+    list-style: none;
+  }
+  .language > ul > li:nth-of-type(1) {
+    background: url(../image/lag.png);
+  }
+  /*鼠标悬停*/
+  .language > ul > li:nth-of-type(1):hover {
+    background: url(../image/lag.png) no-repeat -80px 0;
+  }
+  .language > ul > li:nth-of-type(2) {
+    background: url(../image/lag.png) no-repeat 0px -33px;
+  }
+  /*鼠标悬停*/
+  .language > ul > li:nth-of-type(2):hover {
+    background: url(../image/lag.png) no-repeat -80px -33px;
+  }
+  .language > ul > li:nth-of-type(3) {
+    background: url(../image/lag.png) no-repeat 0px -66px;
+  }
+  /*鼠标悬停*/
+  .language > ul > li:nth-of-type(3):hover {
+    background: url(../image/lag.png) no-repeat -80px -66px;
+  }
+  .language > ul > li:nth-of-type(4) {
+    background: url(../image/lag.png) no-repeat 0px -100px;
+  }
+  /*鼠标悬停*/
+  .language > ul > li:nth-of-type(4):hover {
+    background: url(../image/lag.png) no-repeat -80px -100px;
+  }
+  .language > ul > li:nth-of-type(5) {
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 35px;
+    background: url(https://plugin.tianqistatic.com/static/images/tqicon1/b7.png)
+      no-repeat 3px 0;
+    background-color: white;
+  }
+  
+  .nav {
+    width: 100%;
+    height: 70px;
+    background: #0e2a48;
+  }
+  
+  /*清楚a标签默认样式*/
+  a {
+    text-decoration: none;
+    color: #101111ce;
+  }
+  
+  /*导航条部分*/
+  .nav > ul {
+    margin-left: 310px;
+    height: 70px;
+  }
+  
+  .nav > ul > li {
+    height: 70px;
+    padding: 0 10px;
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+    position: relative;
+  }
+  .nav > ul > li > a {
+    color: white;
+    line-height: 70px;
+  }
+  
+  #home{
+    position:absolute;
+    top: 19px;
+  }
+  #homeLi{
+    width: 40px;
+  }
+  /*版心*/
+  .continer{
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 85px;
+  }
+  .continer>.title{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    color: #999;
+    font-size: 14px;
+    border-bottom:1px solid #999 ;
+  }
+  /*文字*/
+  .continer>.title>span{
+    color: #333;
+  
+  }
+  .continer>.title>span:hover{
+    color: #3c88c8;
+  }
+  .content{
+    width: 70%;
+    margin-top: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .content>h1{
+    text-align: center;
+    line-height: 60px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .content>.from{
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 20px;
+  }
+  .content>.img{
+    text-align: center;
+    
+  }
+  
+  .content>p{
+    line-height: 30px;
+    color: #201e1e;
+    text-indent: 2em;
+    margin-bottom: 30px;
+  }
+  

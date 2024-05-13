@@ -1,0 +1,498 @@
+/*清楚默认边距*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/*增加背景图片*/
+body {
+  background: url();
+}
+/*给header设置一个外边距,留出页面最上面dev的距离*/
+.header {
+  height: 445px;
+  margin-top: 15px;
+}
+/*语言部分的样式*/
+
+.language {
+  width: 100%;
+  height: 35px;
+  background: #101;
+}
+
+.language > ul {
+  float: right;
+  /*right: 470px;*/
+  margin-right: 170px;
+}
+.language > ul > li {
+  width: 80px;
+  height: 35px;
+  float: left;
+  margin-left: 5px;
+  list-style: none;
+}
+.language > ul > li:nth-of-type(1) {
+  background: url(../image/lag.png);
+}
+/*鼠标悬停*/
+.language > ul > li:nth-of-type(1):hover {
+  background: url(../image/lag.png) no-repeat -80px 0;
+}
+.language > ul > li:nth-of-type(2) {
+  background: url(../image/lag.png) no-repeat 0px -33px;
+}
+/*鼠标悬停*/
+.language > ul > li:nth-of-type(2):hover {
+  background: url(../image/lag.png) no-repeat -80px -33px;
+}
+.language > ul > li:nth-of-type(3) {
+  background: url(../image/lag.png) no-repeat 0px -66px;
+}
+/*鼠标悬停*/
+.language > ul > li:nth-of-type(3):hover {
+  background: url(../image/lag.png) no-repeat -80px -66px;
+}
+.language > ul > li:nth-of-type(4) {
+  background: url(../image/lag.png) no-repeat 0px -100px;
+}
+/*鼠标悬停*/
+.language > ul > li:nth-of-type(4):hover {
+  background: url(../image/lag.png) no-repeat -80px -100px;
+}
+.language > ul > li:nth-of-type(5) {
+  padding-left: 25px;
+  font-size: 14px;
+  line-height: 35px;
+  background: url(https://plugin.tianqistatic.com/static/images/tqicon1/b7.png)
+    no-repeat 3px 0;
+  background-color: white;
+}
+
+.nav {
+  width: 100%;
+  height: 70px;
+  background: #123356;
+}
+
+/*清楚a标签默认样式*/
+a {
+  text-decoration: none;
+  color: #101111ce;
+}
+
+/*导航条部分*/
+.nav > ul {
+  margin-left: 310px;
+  height: 70px;
+}
+
+.nav > ul > li {
+  height: 70px;
+  padding: 0 15px;
+  float: left;
+  list-style: none;
+}
+.nav > ul > li > a {
+  color: white;
+  line-height: 70px;
+}
+
+.header > img {
+  float: left;
+  margin-left: 85px;
+}
+
+/*banner图部分*/
+
+.banner {
+  width: 100%;
+  height: 340px;
+  background: url(../image/主页背景.png) no-repeat;
+  background-size: 100% 340px;
+  overflow: hidden;
+}
+
+.banner > p {
+  font-size: 35px;
+  font-size: 4rem;
+  color: rgb(160, 231, 198);
+  margin-left: 750px;
+  margin-top: 35px;
+}
+.continer {
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+/*父级区域*/
+.continer > .top1 {
+  width: 100%;
+  height: 320px;
+}
+/*左侧区域*/
+.top1 > .left {
+  width: 210px;
+  height: 100%;
+  background: #3a5480;
+  float: left;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+/*中间区域*/
+.top1 > .center {
+  width: 620px;
+  height: 100%;
+  float: left;
+  margin: 0 10px;
+}
+/*右侧区域*/
+.top1 > .right {
+  width: 281px;
+  height: 100%;
+  float: left;
+  margin-left: 10px;
+}
+/*厦门旅游*/
+.top1 > .left > h2 {
+  color: bisque;
+  font-size: 18px;
+  padding: 15px 0;
+  border-bottom: 1px solid;
+}
+/*厦门旅游下的各个样式*/
+.top1 > .left > ul {
+  list-style: none;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+/*文字样式图片*/
+.top1 > .left > ul > li {
+  color: white;
+  line-height: 40px;
+  background-color: red;
+  padding-left: 15px;
+  background: url(http://www.visitxm.com/images/ql_dot.png) no-repeat 0px 17px;
+}
+/*鼠标悬浮变色*/
+.top1 > .left > ul > li:hover {
+  color: #041221;
+}
+/*中间图片*/
+.top1 > .center {
+  background: url(../image/背景3.webp);
+  background-size: 620px 100%;
+}
+
+/*咨询板块内容*/
+.top1 > .right > .news {
+  width: 100%;
+  height: 35px;
+  border-bottom: 3px solid #add5f2;
+  line-height: 35px;
+}
+
+.top1 > .right > .news > .news_left {
+  font-weight: 900;
+  box-sizing: border-box;
+  padding-bottom: 7px;
+  border-bottom: 3px solid #3c78a9;
+}
+.top1 > .right > .news > .news_right {
+  float: right;
+  font-size: 14px;
+  font-style: italic;
+}
+.top1 > .right > .news > .news_right > a:hover {
+  color: #4c86d0;
+}
+
+/*咨询文字*/
+.top1 > .right > ul {
+  width: 100%;
+  height: 270px;
+  background-color: white;
+  margin-top: 13px;
+  list-style: none;
+  padding: 0 12px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+/*文字旁边的图片*/
+.top1 > .right > ul > li {
+  font-size: 14px;
+  color: #212323;
+  line-height: 32px;
+  padding-left: 8px;
+  background: url(http://www.visitxm.com/images/sm_arrow.png) no-repeat 0px 13px;
+}
+
+.top1 > .right > ul > li:nth-of-type(1) {
+  margin-top: 10px;
+}
+
+/*文字鼠标悬浮下划线*/
+.top1 > .right > ul > li:hover {
+  text-decoration: underline;
+  color: #4c86d0;
+}
+/*版心第二部分*/
+.top2 {
+  width: 100%;
+  height: 430px;
+  margin-top: 15px;
+}
+.top2 > .top2left {
+  height: 430px;
+  width: 840px;
+  float: left;
+}
+
+/*左边块*/
+.top2left > .top {
+  width: 100%;
+  height: 60px;
+  background-color: #174372;
+  line-height: 60px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.top2left > .top > .title {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+/*悬浮字体变色*/
+.top2left > .top > .item:hover {
+  color: white;
+  background-color: #15385d;
+}
+/*背景颜色*/
+.top2left > .top > .item {
+  padding: 0 10px;
+  border-radius: 3px;
+  margin-left: 20px;
+  font-size: 14px;
+}
+/*右边块*/
+.top2 > .top2right {
+  height: 430px;
+  width: 281px;
+  float: left;
+  margin-left: 20px;
+}
+/*背景颜色*/
+.top2left > .top > span:nth-of-type(2) {
+  background-color: #78baf7;
+}
+.top2left > .top > span:nth-of-type(3) {
+  background-color: #abdf8b;
+}
+.top2left > .top > span:nth-of-type(4) {
+  background-color: #70cec0;
+}
+.top2left > .top > span:nth-of-type(5) {
+  background-color: #70cec0;
+}
+.top2left > .top > span:nth-of-type(6) {
+  background-color: #f1aac8;
+}
+/*其他线路*/
+.top2left > .top > .more > a {
+  float: right;
+  font-size: 14px;
+  color: white;
+  font-style: italic;
+}
+.top2left > .top > .more > a:hover {
+  color: #aed5f1;
+}
+/*121 左侧块要素*/
+.top2left > .bottom {
+    position: relative;
+  width: 840px;
+  height: 370px;
+}
+.top2left>.bottom>.bottomleft{
+  width: 285px;
+  height: 370px;
+  float: left;
+}
+/*左侧万国*/
+.top2left > .bottom >.bottomleft> .world {
+  width: 100%;
+  height: 126px;
+  background-color: #d4e5f1;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+/*title字体样式 123*/
+.top2left > .bottom >.bottomleft> .world > .title {
+  font: weight 600px;
+  font-size: 18px;
+  color: #041221;
+}
+.top2left > .bottom >.bottomleft>.world > .title>em{
+    font-size: 25px;
+    color: #285f9e;
+}
+.top2left > .bottom >.bottomleft> .world >p{
+    font-size: 12px;
+    color: #0b0b0b;
+}
+.top2left > .bottom >.bottomleft> .world >p:hover{
+    color: #4d86d0;
+}
+
+/*pic左边下块*/
+.top2left>.bottom>.bottomleft>.pic{
+    width: 100%;
+    height: 244px;
+    background:url(../image/精品线路图片1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+/*#jt{
+    position: absolute;
+}*/
+/*看厦门中间块*/
+.bottom>.bottomright{
+  width: 555px;
+  height: 370px;
+  background-color: #e2e7e7ce;
+  float: left;
+}
+/*右侧部分*/
+
+/*三块区域*/
+.bottom>.bottomright>.item{
+  width: 95%;
+  margin: 0px auto;
+  height: 122px;
+  padding: 0 15px;
+  border-bottom: 1px dashed #999;
+  overflow: hidden;
+
+}
+/*图片类型*/
+.bottom>.bottomright>.item>img{
+  width: 160px;
+  height: 100px;
+  float: left;
+  margin-top: 10px;
+}
+.bottomright>.item>.itemright{
+  margin-top: 15px;
+  margin-left: 198px;
+}
+.bottomright>.item>.itemright>h3{
+  font-size: 16px;
+}
+
+.bottomright>.item>.itemright>h3>em{
+  font-size: 20px;
+  color: #3c78a9;
+}
+.bottomright>.item>.itemright>p{
+  font-size: 12px;
+  counter: #1c1919;
+}
+/*其他路线右块区域*/
+.top2>.top2right{
+  height: 430px;
+  width: 255px;
+  float: left;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top2>.top2right>.item{
+  width: 100%;
+  height: 130px;
+}
+
+.top2>.top2right>.item:nth-of-type(1){
+  background: url(../image/精品路线右侧图片.gif) no-repeat;
+  background-size: cover;
+}
+.top2>.top2right>.item:nth-of-type(2){
+  background: url(../image/精品路线右侧图片2.jpg) no-repeat;
+  background-size: cover;
+
+}
+.top2>.top2right>.item:nth-of-type(3){
+  background: url(../image/精品路线右侧图片3.jpg) no-repeat;
+  background-size: cover;
+}
+/*版心第三部分*/
+.guide{
+  width: 100%;
+  height: 85px;
+  text-align: center;
+  line-height: 85px;
+  background:url(http://www.visitxm.com/images/tit-line.png) no-repeat center center;
+  background:url();
+}
+.top3{
+  margin-top: 20px;
+  width: 100%;
+  height: 445px;
+}
+.top3>.area{
+  width: 100%;
+  height: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top3>.area>.item{
+  height: 360px;
+  width: 215px;
+  position: relative;
+  float: left;
+}
+
+.top3>.item>img{
+  width: 100%;
+  height: 280px;
+}
+
+.top3>.area>.item>span{
+  color: wheat;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  top:16px;
+  left:23px;
+}
+
+.top3>.area>.item>ul{
+  width: 100%;
+  height: 90px;
+  list-style: none;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  background-color: white;
+  margin-top: -6px;
+}
+.top3>.area>.item>ul>li{
+  font-size: 12px;
+  width: 100px;
+  background: white;
+  color: #041221;
+  float: left;
+  line-height: 20px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  background: url(http://www.visitxm.com/images/tg_dot.png) no-repeat 4px 8px;
+}
+.top3>.area>.item>ul>li:hover{
+  color: #589ee0;
+}
+.top3>.area>.item:nth-of-type(2) ul>li:nth-of-type(5){
+  width: 100%;
+}
